@@ -1,3 +1,45 @@
+# Terraform working directory
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Terraform plans
+*.tfplan
+*.plan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+
+# AWS credentials
+.aws/
+credentials
+
+# Environment files
+.env
+.env.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Existing local files
 .pub
 terra-key-ec2
 
